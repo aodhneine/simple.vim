@@ -1,0 +1,25 @@
+                                   simple.vim
+
+Set of minimal syntax file for Vim, inspired by [nothings]' highlighting and by
+[simpc-mode] (now [nothings-mode]).  Its goal is to offer minimal visual
+distraction when editings ource code, while leaving you with an option to use
+any colour theme your want.
+
+[nothings]: https://github.com/nothings
+[simpc-mode]: https://github.com/rexim/simpc-mode
+[nothings-mode]: https://github.com/rexim/simpc-mode
+
+
+                                 Installation
+
+Copy `.vim` files to somewhere in your `runtimepath`, i.e. to `~/.config/nvim
+/syntax/`. That's all.
+
+
+                                    Copying
+
+This is free and unencumbered software realsed into the public domain. You may
+also use it under the 0-clause BSD License. For more information, see [COPYING]
+file.
+
+[COPYING]: ./COPYING
