@@ -1,13 +1,13 @@
                                    simple.vim
 
 Set of minimal syntax file for Vim, inspired by [nothings]' highlighting and by
-[simpc-mode] (now [nothings-mode]).  Its goal is to offer minimal visual
+[simpc-mode] (now [nothings-mode]). Its goal is to offer minimal visual
 distraction when editings ource code, while leaving you with an option to use
 any colour theme your want.
 
 [nothings]: https://github.com/nothings
 [simpc-mode]: https://github.com/rexim/simpc-mode
-[nothings-mode]: https://github.com/rexim/simpc-mode
+[nothings-mode]: https://github.com/rexim/nothings-mode
 
 
                                  Installation
