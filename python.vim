@@ -5,9 +5,9 @@ if exists("b:current_syntax")
   finish
 endif
 
-syn keyword pyKeyword def pass for in class yield return break else
+syn keyword pyKeyword def pass for in class yield return break else if elif not continue and or is with as assert
 syn match pyStringEscapeSequence /\v\\('|n|r|x[0-9a-f]+)/
-syn match pyStringInterpolation "\v\{.*\}"
+syn match pyStringInterpolation "\v\{[^\}]+\}"
 syn region pyTripleString start=/"""/ end=/"""/
 syn region pyString start=/"/ end=/"/ skip=/\v\\"/ contains=pyStringEscapeSequence,pyStringInterpolation
 syn region pySingleString start=/'/ end=/'/ skip=/\v\\'/ contains=pyStringEscapeSequence,pyStringInterpolation
